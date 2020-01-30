@@ -1,4 +1,4 @@
-package com.example.anz;
+package com.banking.anz.anz;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
