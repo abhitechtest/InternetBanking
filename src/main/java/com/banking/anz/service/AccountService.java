@@ -40,7 +40,6 @@ public class AccountService {
     }
 
     public List<Transaction> getTransactions(int accountNumber){
-        List<Transaction> transactionList = null;
         if(accountNumber > 0){
             return transactionRepository.findAll();
         }else
